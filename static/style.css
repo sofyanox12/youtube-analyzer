@@ -1,0 +1,14 @@
+a:hover {
+    color: #000000 !important;
+    background-color: rgb(200, 71, 79) !important;
+    box-shadow: 0 0 6px #000000 !important;
+    border-radius: 8px;
+}
+
+a:not(:hover) {
+    border-radius: 8px;
+}
+
+button:not(:hover) {
+    box-shadow: 8px 8px 1px #ff3737 !important;
+}
