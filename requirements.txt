@@ -1,0 +1,5 @@
+# Requirements
+flask=2.2.3
+google-api-python-client=2.68.0
+pandas=1.5.2
+urllib3=1.26.7
