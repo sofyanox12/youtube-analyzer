@@ -6,8 +6,8 @@ import googleapiclient.discovery as connect
 import pandas as pd
 import seaborn as sns
 import urllib.request as server
-# import os
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request
+
 app = Flask(__name__)
 
 api = 'AIzaSyAQo0zutTNb6nXiuYSJ9_p_Pjx5mr1nHBw'  # API SOFYAN

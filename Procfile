@@ -1,1 +1,1 @@
-web: python -m flask --app app.py --debug run
+web: gunicorn app:app
